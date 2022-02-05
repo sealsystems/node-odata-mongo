@@ -1,3 +1,10 @@
+## 0.3.5 (2022-02-05)
+
+### Chores
+
+
+bump lodash from 4.17.15 to 4.17.21 ([c495e1a](https://github.com/sealsystems/node-odata-mongo/commit/c495e1a))
+
 ## 0.3.4 (2021-01-16)
 
 ### Chores
