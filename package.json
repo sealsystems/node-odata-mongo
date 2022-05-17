@@ -26,7 +26,7 @@
     "lodash": "4.17.21"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.7.6",
+    "@sealsystems/eslint-config-es": "3.7.7",
     "@sealsystems/mocha": "4.2.3",
     "express": "4.17.2",
     "supertest": "6.2.2"
