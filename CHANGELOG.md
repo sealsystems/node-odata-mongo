@@ -1,3 +1,16 @@
+## 1.0.0 (2022-10-21)
+
+### Features
+
+
+Changes to support MongoDB driver 4.x ([45d988d](https://github.com/sealsystems/node-odata-mongo/commit/45d988d))
+
+
+
+### BREAKING CHANGES
+
+Changes to support MongoDB driver 4.x
+
 ## 0.3.5 (2022-02-05)
 
 ### Chores
