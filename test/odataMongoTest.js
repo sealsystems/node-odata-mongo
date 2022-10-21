@@ -152,7 +152,7 @@ suite('odataMongo', () => {
           });
       });
 
-      test('sets queryOptions.select with the given fields.', (done) => {
+      test('sets queryOptions.projection with the given fields.', (done) => {
         request(app)
           .get('/foo?$select=firstName, lastName')
           .end((err, res) => {
@@ -161,7 +161,7 @@ suite('odataMongo', () => {
             assert.that(res.body).is.equalTo({
               query: {},
               queryOptions: {
-                fields: {
+                projection: {
                   firstName: 1,
                   lastName: 1
                 }

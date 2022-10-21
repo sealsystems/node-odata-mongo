@@ -1,12 +1,11 @@
 # @sealsystems/odata-mongo
 
-
 @sealsystems/odata-mongo is a middleware that translates [OData](http://www.odata.org/) to MongoDB queries. [OData Version 2.0](http://www.odata.org/documentation/odata-version-2-0/uri-conventions/) URI conventions are supported.
 
 ## Installation
 
 ```bash
-$ npm install @sealsystems/odata-mongo
+npm install @sealsystems/odata-mongo
 ```
 
 ## Quick start
@@ -42,8 +41,4 @@ In case the client sends an invalid OData expression, the middleware responds wi
 
 ## Running the build
 
-To build this module use [roboter](https://www.npmjs.com/package/roboter).
-
-```bash
-$ bot
-```
+Builds and releases are triggered on GitHub by dependabot if commit comment starts with `fix:` or `feat:`.
